@@ -7,7 +7,7 @@
             </app-question-form>
             <mat-divider></mat-divider>
             <button mat-raised-button color="primary" (click)="nextOrViewResults()"
-                [disabled]="!answers.values[currentQuestionIndex]">{{currentQuestionIndex === questions.lenght - 1 ? 'View results' : 'Next'}}
+                [disabled]="!answers.values[currentQuestionIndex]">{{currentQuestionIndex === questions.length - 1 ? 'View results' : 'Next'}}
             </button>
         </div>
         <div>{{answers.values}}</div>

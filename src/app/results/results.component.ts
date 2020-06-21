@@ -11,7 +11,7 @@ export class ResultsComponent {
   @Input() answers: Answers;
 
 
-  progressInPercent(givenAnswers: [], numOfAll: number) {
+  progressInPercent(givenAnswers: any, numOfAll: any) {
     let numberOfCorrect = givenAnswers.filter(function (a) { return a['correct'] === true; }).length;
     return ((numberOfCorrect / numOfAll) * 100);
   }

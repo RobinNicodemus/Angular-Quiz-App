@@ -124,6 +124,10 @@
               "devServerTarget": "my-new-quiz-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
