@@ -1,0 +1,18 @@
+<div class="results">
+    <h2>Results</h2>
+    <mat-progress-bar mode="determinate" value="{{progressInPercent(answers.values, questions.length)}}">
+    </mat-progress-bar>
+    <span>{{progressInPercent(answers.values, questions.length)}}% </span>
+    <mat-list>
+        <mat-list-item class="answer" *ngFor="let a of answers.values; index as i" [ngClass]="{correct: a.correct}">
+            <h3 matLine>{{questions[i].label}}</h3>
+            <p matLine>Your answer: {{a.value}}</p>
+            <span matLine class="answer_correction" *ngFor="let x of questions[i].choices">
+                <span *ngIf="x.correct === true">Correct answer: {{x.value}}</span>
+            </span>
+        </mat-list-item>
+    </mat-list>
+    <mat-divider></mat-divider>
+    <a mat-raised-button color="primary" routerLink="/welcome" class="btn btn-primary">Choose
+        another quiz</a>
+</div>

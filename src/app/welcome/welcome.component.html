@@ -1,0 +1,13 @@
+<div class="welcome">
+    <h1 class="text-center">Choose your Quiz!</h1>
+    <mat-divider></mat-divider>
+    <mat-card color="primary" class="quiz_card" *ngFor="let q of quizzes">
+        <mat-card-header class="justify-center">
+            <mat-card-title>{{q.label}}</mat-card-title>
+            <mat-card-subtitle>{{q.description}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-actions>
+            <a mat-raised-button color="primary" routerLink="/{{q.name}}" class="btn btn-primary">Go!</a>
+        </mat-card-actions>
+    </mat-card>
+</div>
