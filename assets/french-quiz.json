@@ -1,0 +1,107 @@
+[
+    {
+        "label": "What is Hello in french?",
+        "choices": [
+            {
+                "value": "Au revoir",
+                "correct": false
+            },
+            {
+                "value": "Bonjour",
+                "correct": true
+            },
+            {
+                "value": "Tant pis",
+                "correct": false
+            },
+            {
+                "value": "Salut!",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "What is Goodbye in french?",
+        "choices": [
+            {
+                "value": "Au revoir",
+                "correct": true
+            },
+            {
+                "value": "Bonjour",
+                "correct": false
+            },
+            {
+                "value": "Tant pis",
+                "correct": false
+            },
+            {
+                "value": "Salut!",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "What is 'la tour' in english?",
+        "choices": [
+            {
+                "value": "a tower",
+                "correct": true
+            },
+            {
+                "value": "a tour",
+                "correct": false
+            },
+            {
+                "value": "a vacation",
+                "correct": false
+            },
+            {
+                "value": "a cruise",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "label": "What is the translation of 'Thank you very much'?",
+        "choices": [
+            {
+                "value": "Bon courage!",
+                "correct": false
+            },
+            {
+                "value": "Tant merci!",
+                "correct": false
+            },
+            {
+                "value": "Trop beaucoup!",
+                "correct": false
+            },
+            {
+                "value": "Merci beaucoup",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "label": "What is the translation of 'You´re welcome' as an answer to 'Thanks'?",
+        "choices": [
+            {
+                "value": "steuplait",
+                "correct": false
+            },
+            {
+                "value": "comment",
+                "correct": false
+            },
+            {
+                "value": "s'il vous plaît",
+                "correct": false
+            },
+            {
+                "value": "De rien",
+                "correct": true
+            }
+        ]
+    }
+]
